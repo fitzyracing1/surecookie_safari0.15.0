@@ -1,0 +1,1289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A27B02B32EECFCB2003C00D4 /* surecookie_0.2.0safari16 Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A27B02B22EECFCB2003C00D4 /* surecookie_0.2.0safari16 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A27B03BD2EECFE80003C00D4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B92EECFE80003C00D4 /* README.md */; };
+		A27B03BE2EECFE80003C00D4 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B038E2EECFE80003C00D4 /* Script.js */; };
+		A27B03BF2EECFE80003C00D4 /* messages.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B039E2EECFE80003C00D4 /* messages.json */; };
+		A27B03C02EECFE80003C00D4 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A42EECFE80003C00D4 /* icon-128.png */; };
+		A27B03C12EECFE80003C00D4 /* icon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A22EECFE80003C00D4 /* icon-64.png */; };
+		A27B03C22EECFE80003C00D4 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03832EECFE80003C00D4 /* icon-128.png */; };
+		A27B03C32EECFE80003C00D4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AB2EECFE80003C00D4 /* manifest.json */; };
+		A27B03C42EECFE80003C00D4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B02EECFE80003C00D4 /* Info.plist */; };
+		A27B03C52EECFE80003C00D4 /* icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A62EECFE80003C00D4 /* icon-512.png */; };
+		A27B03C62EECFE80003C00D4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AA2EECFE80003C00D4 /* content.js */; };
+		A27B03C72EECFE80003C00D4 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A92EECFE80003C00D4 /* background.js */; };
+		A27B03C82EECFE80003C00D4 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03852EECFE80003C00D4 /* background.js */; };
+		A27B03C92EECFE80003C00D4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A27B03882EECFE80003C00D4 /* popup.html */; };
+		A27B03CA2EECFE80003C00D4 /* copilot-instructions.md in Resources */ = {isa = PBXBuildFile; fileRef = A27B037F2EECFE80003C00D4 /* copilot-instructions.md */; };
+		A27B03CB2EECFE80003C00D4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B62EECFE80003C00D4 /* .gitignore */; };
+		A27B03CC2EECFE80003C00D4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03892EECFE80003C00D4 /* popup.js */; };
+		A27B03CD2EECFE80003C00D4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B038B2EECFE80003C00D4 /* Icon.png */; };
+		A27B03CE2EECFE80003C00D4 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B82EECFE80003C00D4 /* package.json */; };
+		A27B03CF2EECFE80003C00D4 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AC2EECFE80003C00D4 /* popup.css */; };
+		A27B03D02EECFE80003C00D4 /* toolbar-icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A72EECFE80003C00D4 /* toolbar-icon.svg */; };
+		A27B03D12EECFE80003C00D4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AD2EECFE80003C00D4 /* popup.html */; };
+		A27B03D22EECFE80003C00D4 /* icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03812EECFE80003C00D4 /* icon-16.png */; };
+		A27B03D32EECFE80003C00D4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B72EECFE80003C00D4 /* manifest.json */; };
+		A27B03D42EECFE80003C00D4 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A27B03872EECFE80003C00D4 /* popup.css */; };
+		A27B03D52EECFE80003C00D4 /* icon-96.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A32EECFE80003C00D4 /* icon-96.png */; };
+		A27B03D62EECFE80003C00D4 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A12EECFE80003C00D4 /* icon-48.png */; };
+		A27B03D72EECFE80003C00D4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AE2EECFE80003C00D4 /* popup.js */; };
+		A27B03D82EECFE80003C00D4 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03822EECFE80003C00D4 /* icon-48.png */; };
+		A27B03D92EECFE80003C00D4 /* icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A52EECFE80003C00D4 /* icon-256.png */; };
+		A27B03DA2EECFE80003C00D4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03862EECFE80003C00D4 /* content.js */; };
+		A27B03DB2EECFE80003C00D4 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A27B038D2EECFE80003C00D4 /* Main.html */; };
+		A27B03DC2EECFE80003C00D4 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A27B038F2EECFE80003C00D4 /* Style.css */; };
+		A27B03DD2EECFE80003C00D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27B03922EECFE80003C00D4 /* Assets.xcassets */; };
+		A27B03DE2EECFE80003C00D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B03942EECFE80003C00D4 /* Main.storyboard */; };
+		A27B03DF2EECFE80003C00D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03972EECFE80003C00D4 /* ViewController.swift */; };
+		A27B03E02EECFE80003C00D4 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03B12EECFE80003C00D4 /* SafariWebExtensionHandler.swift */; };
+		A27B03E12EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B039B2EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITests.swift */; };
+		A27B03E22EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B039C2EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITestsLaunchTests.swift */; };
+		A27B03E32EECFE80003C00D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03912EECFE80003C00D4 /* AppDelegate.swift */; };
+		A27B03E42EECFE80003C00D4 /* surecookie_0_2_0safari1_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03992EECFE80003C00D4 /* surecookie_0_2_0safari1_2Tests.swift */; };
+		A27B03E52EECFE80003C00D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03972EECFE80003C00D4 /* ViewController.swift */; };
+		A27B03E62EECFE80003C00D4 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03B12EECFE80003C00D4 /* SafariWebExtensionHandler.swift */; };
+		A27B03E72EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B039B2EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITests.swift */; };
+		A27B03E82EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B039C2EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITestsLaunchTests.swift */; };
+		A27B03E92EECFE80003C00D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03912EECFE80003C00D4 /* AppDelegate.swift */; };
+		A27B03EA2EECFE80003C00D4 /* surecookie_0_2_0safari1_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03992EECFE80003C00D4 /* surecookie_0_2_0safari1_2Tests.swift */; };
+		A27B03EB2EECFE80003C00D4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B92EECFE80003C00D4 /* README.md */; };
+		A27B03EC2EECFE80003C00D4 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B038E2EECFE80003C00D4 /* Script.js */; };
+		A27B03ED2EECFE80003C00D4 /* messages.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B039E2EECFE80003C00D4 /* messages.json */; };
+		A27B03EE2EECFE80003C00D4 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A42EECFE80003C00D4 /* icon-128.png */; };
+		A27B03EF2EECFE80003C00D4 /* icon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A22EECFE80003C00D4 /* icon-64.png */; };
+		A27B03F02EECFE80003C00D4 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03832EECFE80003C00D4 /* icon-128.png */; };
+		A27B03F12EECFE80003C00D4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AB2EECFE80003C00D4 /* manifest.json */; };
+		A27B03F22EECFE80003C00D4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B02EECFE80003C00D4 /* Info.plist */; };
+		A27B03F32EECFE80003C00D4 /* icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A62EECFE80003C00D4 /* icon-512.png */; };
+		A27B03F42EECFE80003C00D4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AA2EECFE80003C00D4 /* content.js */; };
+		A27B03F52EECFE80003C00D4 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A92EECFE80003C00D4 /* background.js */; };
+		A27B03F62EECFE80003C00D4 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03852EECFE80003C00D4 /* background.js */; };
+		A27B03F72EECFE80003C00D4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A27B03882EECFE80003C00D4 /* popup.html */; };
+		A27B03F82EECFE80003C00D4 /* copilot-instructions.md in Resources */ = {isa = PBXBuildFile; fileRef = A27B037F2EECFE80003C00D4 /* copilot-instructions.md */; };
+		A27B03F92EECFE80003C00D4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B62EECFE80003C00D4 /* .gitignore */; };
+		A27B03FA2EECFE80003C00D4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03892EECFE80003C00D4 /* popup.js */; };
+		A27B03FB2EECFE80003C00D4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B038B2EECFE80003C00D4 /* Icon.png */; };
+		A27B03FC2EECFE80003C00D4 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B82EECFE80003C00D4 /* package.json */; };
+		A27B03FD2EECFE80003C00D4 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AC2EECFE80003C00D4 /* popup.css */; };
+		A27B03FE2EECFE80003C00D4 /* toolbar-icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A72EECFE80003C00D4 /* toolbar-icon.svg */; };
+		A27B03FF2EECFE80003C00D4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AD2EECFE80003C00D4 /* popup.html */; };
+		A27B04002EECFE80003C00D4 /* icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03812EECFE80003C00D4 /* icon-16.png */; };
+		A27B04012EECFE80003C00D4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B72EECFE80003C00D4 /* manifest.json */; };
+		A27B04022EECFE80003C00D4 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A27B03872EECFE80003C00D4 /* popup.css */; };
+		A27B04032EECFE80003C00D4 /* icon-96.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A32EECFE80003C00D4 /* icon-96.png */; };
+		A27B04042EECFE80003C00D4 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A12EECFE80003C00D4 /* icon-48.png */; };
+		A27B04052EECFE80003C00D4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AE2EECFE80003C00D4 /* popup.js */; };
+		A27B04062EECFE80003C00D4 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03822EECFE80003C00D4 /* icon-48.png */; };
+		A27B04072EECFE80003C00D4 /* icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A52EECFE80003C00D4 /* icon-256.png */; };
+		A27B04082EECFE80003C00D4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03862EECFE80003C00D4 /* content.js */; };
+		A27B04092EECFE80003C00D4 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A27B038D2EECFE80003C00D4 /* Main.html */; };
+		A27B040A2EECFE80003C00D4 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A27B038F2EECFE80003C00D4 /* Style.css */; };
+		A27B040B2EECFE80003C00D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27B03922EECFE80003C00D4 /* Assets.xcassets */; };
+		A27B040C2EECFE80003C00D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B03942EECFE80003C00D4 /* Main.storyboard */; };
+		A27B040D2EECFE80003C00D4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B92EECFE80003C00D4 /* README.md */; };
+		A27B040E2EECFE80003C00D4 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B038E2EECFE80003C00D4 /* Script.js */; };
+		A27B040F2EECFE80003C00D4 /* messages.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B039E2EECFE80003C00D4 /* messages.json */; };
+		A27B04102EECFE80003C00D4 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A42EECFE80003C00D4 /* icon-128.png */; };
+		A27B04112EECFE80003C00D4 /* icon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A22EECFE80003C00D4 /* icon-64.png */; };
+		A27B04122EECFE80003C00D4 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03832EECFE80003C00D4 /* icon-128.png */; };
+		A27B04132EECFE80003C00D4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AB2EECFE80003C00D4 /* manifest.json */; };
+		A27B04142EECFE80003C00D4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B02EECFE80003C00D4 /* Info.plist */; };
+		A27B04152EECFE80003C00D4 /* icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A62EECFE80003C00D4 /* icon-512.png */; };
+		A27B04162EECFE80003C00D4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AA2EECFE80003C00D4 /* content.js */; };
+		A27B04172EECFE80003C00D4 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A92EECFE80003C00D4 /* background.js */; };
+		A27B04182EECFE80003C00D4 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03852EECFE80003C00D4 /* background.js */; };
+		A27B04192EECFE80003C00D4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A27B03882EECFE80003C00D4 /* popup.html */; };
+		A27B041A2EECFE80003C00D4 /* copilot-instructions.md in Resources */ = {isa = PBXBuildFile; fileRef = A27B037F2EECFE80003C00D4 /* copilot-instructions.md */; };
+		A27B041B2EECFE80003C00D4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B62EECFE80003C00D4 /* .gitignore */; };
+		A27B041C2EECFE80003C00D4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03892EECFE80003C00D4 /* popup.js */; };
+		A27B041D2EECFE80003C00D4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B038B2EECFE80003C00D4 /* Icon.png */; };
+		A27B041E2EECFE80003C00D4 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B82EECFE80003C00D4 /* package.json */; };
+		A27B041F2EECFE80003C00D4 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AC2EECFE80003C00D4 /* popup.css */; };
+		A27B04202EECFE80003C00D4 /* toolbar-icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A72EECFE80003C00D4 /* toolbar-icon.svg */; };
+		A27B04212EECFE80003C00D4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AD2EECFE80003C00D4 /* popup.html */; };
+		A27B04222EECFE80003C00D4 /* icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03812EECFE80003C00D4 /* icon-16.png */; };
+		A27B04232EECFE80003C00D4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B72EECFE80003C00D4 /* manifest.json */; };
+		A27B04242EECFE80003C00D4 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A27B03872EECFE80003C00D4 /* popup.css */; };
+		A27B04252EECFE80003C00D4 /* icon-96.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A32EECFE80003C00D4 /* icon-96.png */; };
+		A27B04262EECFE80003C00D4 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A12EECFE80003C00D4 /* icon-48.png */; };
+		A27B04272EECFE80003C00D4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AE2EECFE80003C00D4 /* popup.js */; };
+		A27B04282EECFE80003C00D4 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03822EECFE80003C00D4 /* icon-48.png */; };
+		A27B04292EECFE80003C00D4 /* icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A52EECFE80003C00D4 /* icon-256.png */; };
+		A27B042A2EECFE80003C00D4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03862EECFE80003C00D4 /* content.js */; };
+		A27B042B2EECFE80003C00D4 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A27B038D2EECFE80003C00D4 /* Main.html */; };
+		A27B042C2EECFE80003C00D4 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A27B038F2EECFE80003C00D4 /* Style.css */; };
+		A27B042D2EECFE80003C00D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27B03922EECFE80003C00D4 /* Assets.xcassets */; };
+		A27B042E2EECFE80003C00D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B03942EECFE80003C00D4 /* Main.storyboard */; };
+		A27B042F2EECFE80003C00D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03972EECFE80003C00D4 /* ViewController.swift */; };
+		A27B04302EECFE80003C00D4 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03B12EECFE80003C00D4 /* SafariWebExtensionHandler.swift */; };
+		A27B04312EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B039B2EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITests.swift */; };
+		A27B04322EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B039C2EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITestsLaunchTests.swift */; };
+		A27B04332EECFE80003C00D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03912EECFE80003C00D4 /* AppDelegate.swift */; };
+		A27B04342EECFE80003C00D4 /* surecookie_0_2_0safari1_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03992EECFE80003C00D4 /* surecookie_0_2_0safari1_2Tests.swift */; };
+		A27B04352EECFE80003C00D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03972EECFE80003C00D4 /* ViewController.swift */; };
+		A27B04362EECFE80003C00D4 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03B12EECFE80003C00D4 /* SafariWebExtensionHandler.swift */; };
+		A27B04372EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B039B2EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITests.swift */; };
+		A27B04382EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B039C2EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITestsLaunchTests.swift */; };
+		A27B04392EECFE80003C00D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03912EECFE80003C00D4 /* AppDelegate.swift */; };
+		A27B043A2EECFE80003C00D4 /* surecookie_0_2_0safari1_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27B03992EECFE80003C00D4 /* surecookie_0_2_0safari1_2Tests.swift */; };
+		A27B043B2EECFE80003C00D4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B92EECFE80003C00D4 /* README.md */; };
+		A27B043C2EECFE80003C00D4 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B038E2EECFE80003C00D4 /* Script.js */; };
+		A27B043D2EECFE80003C00D4 /* messages.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B039E2EECFE80003C00D4 /* messages.json */; };
+		A27B043E2EECFE80003C00D4 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A42EECFE80003C00D4 /* icon-128.png */; };
+		A27B043F2EECFE80003C00D4 /* icon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A22EECFE80003C00D4 /* icon-64.png */; };
+		A27B04402EECFE80003C00D4 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03832EECFE80003C00D4 /* icon-128.png */; };
+		A27B04412EECFE80003C00D4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AB2EECFE80003C00D4 /* manifest.json */; };
+		A27B04422EECFE80003C00D4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B02EECFE80003C00D4 /* Info.plist */; };
+		A27B04432EECFE80003C00D4 /* icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A62EECFE80003C00D4 /* icon-512.png */; };
+		A27B04442EECFE80003C00D4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AA2EECFE80003C00D4 /* content.js */; };
+		A27B04452EECFE80003C00D4 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A92EECFE80003C00D4 /* background.js */; };
+		A27B04462EECFE80003C00D4 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03852EECFE80003C00D4 /* background.js */; };
+		A27B04472EECFE80003C00D4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A27B03882EECFE80003C00D4 /* popup.html */; };
+		A27B04482EECFE80003C00D4 /* copilot-instructions.md in Resources */ = {isa = PBXBuildFile; fileRef = A27B037F2EECFE80003C00D4 /* copilot-instructions.md */; };
+		A27B04492EECFE80003C00D4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B62EECFE80003C00D4 /* .gitignore */; };
+		A27B044A2EECFE80003C00D4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03892EECFE80003C00D4 /* popup.js */; };
+		A27B044B2EECFE80003C00D4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B038B2EECFE80003C00D4 /* Icon.png */; };
+		A27B044C2EECFE80003C00D4 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B82EECFE80003C00D4 /* package.json */; };
+		A27B044D2EECFE80003C00D4 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AC2EECFE80003C00D4 /* popup.css */; };
+		A27B044E2EECFE80003C00D4 /* toolbar-icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A72EECFE80003C00D4 /* toolbar-icon.svg */; };
+		A27B044F2EECFE80003C00D4 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AD2EECFE80003C00D4 /* popup.html */; };
+		A27B04502EECFE80003C00D4 /* icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03812EECFE80003C00D4 /* icon-16.png */; };
+		A27B04512EECFE80003C00D4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A27B03B72EECFE80003C00D4 /* manifest.json */; };
+		A27B04522EECFE80003C00D4 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = A27B03872EECFE80003C00D4 /* popup.css */; };
+		A27B04532EECFE80003C00D4 /* icon-96.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A32EECFE80003C00D4 /* icon-96.png */; };
+		A27B04542EECFE80003C00D4 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A12EECFE80003C00D4 /* icon-48.png */; };
+		A27B04552EECFE80003C00D4 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03AE2EECFE80003C00D4 /* popup.js */; };
+		A27B04562EECFE80003C00D4 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03822EECFE80003C00D4 /* icon-48.png */; };
+		A27B04572EECFE80003C00D4 /* icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = A27B03A52EECFE80003C00D4 /* icon-256.png */; };
+		A27B04582EECFE80003C00D4 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A27B03862EECFE80003C00D4 /* content.js */; };
+		A27B04592EECFE80003C00D4 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A27B038D2EECFE80003C00D4 /* Main.html */; };
+		A27B045A2EECFE80003C00D4 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A27B038F2EECFE80003C00D4 /* Style.css */; };
+		A27B045B2EECFE80003C00D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27B03922EECFE80003C00D4 /* Assets.xcassets */; };
+		A27B045C2EECFE80003C00D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27B03942EECFE80003C00D4 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A27B029D2EECFCB2003C00D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27B02782EECFCB1003C00D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27B027F2EECFCB1003C00D4;
+			remoteInfo = surecookie_0.2.0safari16;
+		};
+		A27B02A72EECFCB2003C00D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27B02782EECFCB1003C00D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27B027F2EECFCB1003C00D4;
+			remoteInfo = surecookie_0.2.0safari16;
+		};
+		A27B02B42EECFCB2003C00D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27B02782EECFCB1003C00D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27B02B12EECFCB2003C00D4;
+			remoteInfo = "surecookie_0.2.0safari16 Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A27B02D22EECFCB2003C00D4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A27B02B32EECFCB2003C00D4 /* surecookie_0.2.0safari16 Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A27B02802EECFCB1003C00D4 /* surecookie_0.2.0safari16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = surecookie_0.2.0safari16.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27B029C2EECFCB2003C00D4 /* surecookie_0.2.0safari16Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = surecookie_0.2.0safari16Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27B02A62EECFCB2003C00D4 /* surecookie_0.2.0safari16UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = surecookie_0.2.0safari16UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27B02B22EECFCB2003C00D4 /* surecookie_0.2.0safari16 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "surecookie_0.2.0safari16 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27B037F2EECFE80003C00D4 /* copilot-instructions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "copilot-instructions.md"; sourceTree = "<group>"; };
+		A27B03812EECFE80003C00D4 /* icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-16.png"; sourceTree = "<group>"; };
+		A27B03822EECFE80003C00D4 /* icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-48.png"; sourceTree = "<group>"; };
+		A27B03832EECFE80003C00D4 /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-128.png"; sourceTree = "<group>"; };
+		A27B03852EECFE80003C00D4 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		A27B03862EECFE80003C00D4 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		A27B03872EECFE80003C00D4 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		A27B03882EECFE80003C00D4 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		A27B03892EECFE80003C00D4 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		A27B038B2EECFE80003C00D4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A27B038C2EECFE80003C00D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		A27B038E2EECFE80003C00D4 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		A27B038F2EECFE80003C00D4 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		A27B03912EECFE80003C00D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A27B03922EECFE80003C00D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A27B03932EECFE80003C00D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A27B03952EECFE80003C00D4 /* surecookie_0_2_0safari1_2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = surecookie_0_2_0safari1_2.entitlements; sourceTree = "<group>"; };
+		A27B03962EECFE80003C00D4 /* surecookie_0.2.0safari1.2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = surecookie_0.2.0safari1.2.entitlements; sourceTree = "<group>"; };
+		A27B03972EECFE80003C00D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A27B03992EECFE80003C00D4 /* surecookie_0_2_0safari1_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surecookie_0_2_0safari1_2Tests.swift; sourceTree = "<group>"; };
+		A27B039B2EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surecookie_0_2_0safari1_2UITests.swift; sourceTree = "<group>"; };
+		A27B039C2EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surecookie_0_2_0safari1_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A27B039E2EECFE80003C00D4 /* messages.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = messages.json; sourceTree = "<group>"; };
+		A27B03A12EECFE80003C00D4 /* icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-48.png"; sourceTree = "<group>"; };
+		A27B03A22EECFE80003C00D4 /* icon-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-64.png"; sourceTree = "<group>"; };
+		A27B03A32EECFE80003C00D4 /* icon-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-96.png"; sourceTree = "<group>"; };
+		A27B03A42EECFE80003C00D4 /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-128.png"; sourceTree = "<group>"; };
+		A27B03A52EECFE80003C00D4 /* icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-256.png"; sourceTree = "<group>"; };
+		A27B03A62EECFE80003C00D4 /* icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-512.png"; sourceTree = "<group>"; };
+		A27B03A72EECFE80003C00D4 /* toolbar-icon.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "toolbar-icon.svg"; sourceTree = "<group>"; };
+		A27B03A92EECFE80003C00D4 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		A27B03AA2EECFE80003C00D4 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		A27B03AB2EECFE80003C00D4 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		A27B03AC2EECFE80003C00D4 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		A27B03AD2EECFE80003C00D4 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		A27B03AE2EECFE80003C00D4 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		A27B03B02EECFE80003C00D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27B03B12EECFE80003C00D4 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		A27B03B22EECFE80003C00D4 /* surecookie_0_2_0safari1_2_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = surecookie_0_2_0safari1_2_Extension.entitlements; sourceTree = "<group>"; };
+		A27B03B42EECFE80003C00D4 /* surecookie_0.2.0safari1.2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = surecookie_0.2.0safari1.2.xcodeproj; sourceTree = "<group>"; };
+		A27B03B62EECFE80003C00D4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A27B03B72EECFE80003C00D4 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		A27B03B82EECFE80003C00D4 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		A27B03B92EECFE80003C00D4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A27B02CC2EECFCB2003C00D4 /* Exceptions for "surecookie_0.2.0safari16 Extension" folder in "surecookie_0.2.0safari16 Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A27B02B12EECFCB2003C00D4 /* surecookie_0.2.0safari16 Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A27B02822EECFCB1003C00D4 /* surecookie_0.2.0safari16 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = surecookie_0.2.0safari16;
+			sourceTree = "<group>";
+		};
+		A27B029F2EECFCB2003C00D4 /* surecookie_0.2.0safari16Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = surecookie_0.2.0safari16Tests;
+			sourceTree = "<group>";
+		};
+		A27B02A92EECFCB2003C00D4 /* surecookie_0.2.0safari16UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = surecookie_0.2.0safari16UITests;
+			sourceTree = "<group>";
+		};
+		A27B02B62EECFCB2003C00D4 /* surecookie_0.2.0safari16 Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A27B02CC2EECFCB2003C00D4 /* Exceptions for "surecookie_0.2.0safari16 Extension" folder in "surecookie_0.2.0safari16 Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "surecookie_0.2.0safari16 Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27B027D2EECFCB1003C00D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27B02992EECFCB2003C00D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27B02A32EECFCB2003C00D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27B02AF2EECFCB2003C00D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A27B02772EECFCB1003C00D4 = {
+			isa = PBXGroup;
+			children = (
+				A27B03BA2EECFE80003C00D4 /* surecookie_safari15 2 */,
+				A27B02822EECFCB1003C00D4 /* surecookie_0.2.0safari16 */,
+				A27B029F2EECFCB2003C00D4 /* surecookie_0.2.0safari16Tests */,
+				A27B02A92EECFCB2003C00D4 /* surecookie_0.2.0safari16UITests */,
+				A27B02B62EECFCB2003C00D4 /* surecookie_0.2.0safari16 Extension */,
+				A27B02812EECFCB1003C00D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A27B02812EECFCB1003C00D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A27B02802EECFCB1003C00D4 /* surecookie_0.2.0safari16.app */,
+				A27B029C2EECFCB2003C00D4 /* surecookie_0.2.0safari16Tests.xctest */,
+				A27B02A62EECFCB2003C00D4 /* surecookie_0.2.0safari16UITests.xctest */,
+				A27B02B22EECFCB2003C00D4 /* surecookie_0.2.0safari16 Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A27B03802EECFE80003C00D4 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				A27B037F2EECFE80003C00D4 /* copilot-instructions.md */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		A27B03842EECFE80003C00D4 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				A27B03812EECFE80003C00D4 /* icon-16.png */,
+				A27B03822EECFE80003C00D4 /* icon-48.png */,
+				A27B03832EECFE80003C00D4 /* icon-128.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		A27B038A2EECFE80003C00D4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A27B03852EECFE80003C00D4 /* background.js */,
+				A27B03862EECFE80003C00D4 /* content.js */,
+				A27B03872EECFE80003C00D4 /* popup.css */,
+				A27B03882EECFE80003C00D4 /* popup.html */,
+				A27B03892EECFE80003C00D4 /* popup.js */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A27B03902EECFE80003C00D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A27B038B2EECFE80003C00D4 /* Icon.png */,
+				A27B038D2EECFE80003C00D4 /* Main.html */,
+				A27B038E2EECFE80003C00D4 /* Script.js */,
+				A27B038F2EECFE80003C00D4 /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A27B03982EECFE80003C00D4 /* surecookie_0.2.0safari1.2 */ = {
+			isa = PBXGroup;
+			children = (
+				A27B03902EECFE80003C00D4 /* Resources */,
+				A27B03912EECFE80003C00D4 /* AppDelegate.swift */,
+				A27B03922EECFE80003C00D4 /* Assets.xcassets */,
+				A27B03942EECFE80003C00D4 /* Main.storyboard */,
+				A27B03952EECFE80003C00D4 /* surecookie_0_2_0safari1_2.entitlements */,
+				A27B03962EECFE80003C00D4 /* surecookie_0.2.0safari1.2.entitlements */,
+				A27B03972EECFE80003C00D4 /* ViewController.swift */,
+			);
+			path = surecookie_0.2.0safari1.2;
+			sourceTree = "<group>";
+		};
+		A27B039A2EECFE80003C00D4 /* surecookie_0.2.0safari1.2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A27B03992EECFE80003C00D4 /* surecookie_0_2_0safari1_2Tests.swift */,
+			);
+			path = surecookie_0.2.0safari1.2Tests;
+			sourceTree = "<group>";
+		};
+		A27B039D2EECFE80003C00D4 /* surecookie_0.2.0safari1.2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A27B039B2EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITests.swift */,
+				A27B039C2EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITestsLaunchTests.swift */,
+			);
+			path = surecookie_0.2.0safari1.2UITests;
+			sourceTree = "<group>";
+		};
+		A27B039F2EECFE80003C00D4 /* en */ = {
+			isa = PBXGroup;
+			children = (
+				A27B039E2EECFE80003C00D4 /* messages.json */,
+			);
+			path = en;
+			sourceTree = "<group>";
+		};
+		A27B03A02EECFE80003C00D4 /* _locales */ = {
+			isa = PBXGroup;
+			children = (
+				A27B039F2EECFE80003C00D4 /* en */,
+			);
+			path = _locales;
+			sourceTree = "<group>";
+		};
+		A27B03A82EECFE80003C00D4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A27B03A12EECFE80003C00D4 /* icon-48.png */,
+				A27B03A22EECFE80003C00D4 /* icon-64.png */,
+				A27B03A32EECFE80003C00D4 /* icon-96.png */,
+				A27B03A42EECFE80003C00D4 /* icon-128.png */,
+				A27B03A52EECFE80003C00D4 /* icon-256.png */,
+				A27B03A62EECFE80003C00D4 /* icon-512.png */,
+				A27B03A72EECFE80003C00D4 /* toolbar-icon.svg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A27B03AF2EECFE80003C00D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A27B03A02EECFE80003C00D4 /* _locales */,
+				A27B03A82EECFE80003C00D4 /* images */,
+				A27B03A92EECFE80003C00D4 /* background.js */,
+				A27B03AA2EECFE80003C00D4 /* content.js */,
+				A27B03AB2EECFE80003C00D4 /* manifest.json */,
+				A27B03AC2EECFE80003C00D4 /* popup.css */,
+				A27B03AD2EECFE80003C00D4 /* popup.html */,
+				A27B03AE2EECFE80003C00D4 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A27B03B32EECFE80003C00D4 /* surecookie_0.2.0safari1.2 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A27B03AF2EECFE80003C00D4 /* Resources */,
+				A27B03B02EECFE80003C00D4 /* Info.plist */,
+				A27B03B12EECFE80003C00D4 /* SafariWebExtensionHandler.swift */,
+				A27B03B22EECFE80003C00D4 /* surecookie_0_2_0safari1_2_Extension.entitlements */,
+			);
+			path = "surecookie_0.2.0safari1.2 Extension";
+			sourceTree = "<group>";
+		};
+		A27B03B52EECFE80003C00D4 /* surecookie_0.2.0safari1.2 */ = {
+			isa = PBXGroup;
+			children = (
+				A27B03982EECFE80003C00D4 /* surecookie_0.2.0safari1.2 */,
+				A27B039A2EECFE80003C00D4 /* surecookie_0.2.0safari1.2Tests */,
+				A27B039D2EECFE80003C00D4 /* surecookie_0.2.0safari1.2UITests */,
+				A27B03B32EECFE80003C00D4 /* surecookie_0.2.0safari1.2 Extension */,
+				A27B03B42EECFE80003C00D4 /* surecookie_0.2.0safari1.2.xcodeproj */,
+			);
+			path = surecookie_0.2.0safari1.2;
+			sourceTree = "<group>";
+		};
+		A27B03BA2EECFE80003C00D4 /* surecookie_safari15 2 */ = {
+			isa = PBXGroup;
+			children = (
+				A27B03802EECFE80003C00D4 /* .github */,
+				A27B03842EECFE80003C00D4 /* assets */,
+				A27B038A2EECFE80003C00D4 /* src */,
+				A27B03B52EECFE80003C00D4 /* surecookie_0.2.0safari1.2 */,
+				A27B03B62EECFE80003C00D4 /* .gitignore */,
+				A27B03B72EECFE80003C00D4 /* manifest.json */,
+				A27B03B82EECFE80003C00D4 /* package.json */,
+				A27B03B92EECFE80003C00D4 /* README.md */,
+			);
+			path = "surecookie_safari15 2";
+			sourceTree = "<group>";
+		};
+		A27B03BB2EECFE80003C00D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27B027F2EECFCB1003C00D4 /* surecookie_0.2.0safari16 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27B02D32EECFCB2003C00D4 /* Build configuration list for PBXNativeTarget "surecookie_0.2.0safari16" */;
+			buildPhases = (
+				A27B027C2EECFCB1003C00D4 /* Sources */,
+				A27B027D2EECFCB1003C00D4 /* Frameworks */,
+				A27B027E2EECFCB1003C00D4 /* Resources */,
+				A27B02D22EECFCB2003C00D4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27B02B52EECFCB2003C00D4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A27B02822EECFCB1003C00D4 /* surecookie_0.2.0safari16 */,
+			);
+			name = surecookie_0.2.0safari16;
+			packageProductDependencies = (
+			);
+			productName = surecookie_0.2.0safari16;
+			productReference = A27B02802EECFCB1003C00D4 /* surecookie_0.2.0safari16.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A27B029B2EECFCB2003C00D4 /* surecookie_0.2.0safari16Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27B02D62EECFCB2003C00D4 /* Build configuration list for PBXNativeTarget "surecookie_0.2.0safari16Tests" */;
+			buildPhases = (
+				A27B02982EECFCB2003C00D4 /* Sources */,
+				A27B02992EECFCB2003C00D4 /* Frameworks */,
+				A27B029A2EECFCB2003C00D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27B029E2EECFCB2003C00D4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A27B029F2EECFCB2003C00D4 /* surecookie_0.2.0safari16Tests */,
+			);
+			name = surecookie_0.2.0safari16Tests;
+			packageProductDependencies = (
+			);
+			productName = surecookie_0.2.0safari16Tests;
+			productReference = A27B029C2EECFCB2003C00D4 /* surecookie_0.2.0safari16Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A27B02A52EECFCB2003C00D4 /* surecookie_0.2.0safari16UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27B02D92EECFCB2003C00D4 /* Build configuration list for PBXNativeTarget "surecookie_0.2.0safari16UITests" */;
+			buildPhases = (
+				A27B02A22EECFCB2003C00D4 /* Sources */,
+				A27B02A32EECFCB2003C00D4 /* Frameworks */,
+				A27B02A42EECFCB2003C00D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27B02A82EECFCB2003C00D4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A27B02A92EECFCB2003C00D4 /* surecookie_0.2.0safari16UITests */,
+			);
+			name = surecookie_0.2.0safari16UITests;
+			packageProductDependencies = (
+			);
+			productName = surecookie_0.2.0safari16UITests;
+			productReference = A27B02A62EECFCB2003C00D4 /* surecookie_0.2.0safari16UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A27B02B12EECFCB2003C00D4 /* surecookie_0.2.0safari16 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27B02CD2EECFCB2003C00D4 /* Build configuration list for PBXNativeTarget "surecookie_0.2.0safari16 Extension" */;
+			buildPhases = (
+				A27B02AE2EECFCB2003C00D4 /* Sources */,
+				A27B02AF2EECFCB2003C00D4 /* Frameworks */,
+				A27B02B02EECFCB2003C00D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A27B02B62EECFCB2003C00D4 /* surecookie_0.2.0safari16 Extension */,
+			);
+			name = "surecookie_0.2.0safari16 Extension";
+			packageProductDependencies = (
+			);
+			productName = "surecookie_0.2.0safari16 Extension";
+			productReference = A27B02B22EECFCB2003C00D4 /* surecookie_0.2.0safari16 Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27B02782EECFCB1003C00D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A27B027F2EECFCB1003C00D4 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A27B029B2EECFCB2003C00D4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A27B027F2EECFCB1003C00D4;
+					};
+					A27B02A52EECFCB2003C00D4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A27B027F2EECFCB1003C00D4;
+					};
+					A27B02B12EECFCB2003C00D4 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = A27B027B2EECFCB1003C00D4 /* Build configuration list for PBXProject "surecookie_0.2.0safari16" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27B02772EECFCB1003C00D4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A27B02812EECFCB1003C00D4 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A27B03BB2EECFE80003C00D4 /* Products */;
+					ProjectRef = A27B03B42EECFE80003C00D4 /* surecookie_0.2.0safari1.2.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A27B027F2EECFCB1003C00D4 /* surecookie_0.2.0safari16 */,
+				A27B029B2EECFCB2003C00D4 /* surecookie_0.2.0safari16Tests */,
+				A27B02A52EECFCB2003C00D4 /* surecookie_0.2.0safari16UITests */,
+				A27B02B12EECFCB2003C00D4 /* surecookie_0.2.0safari16 Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27B027E2EECFCB1003C00D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27B040D2EECFE80003C00D4 /* README.md in Resources */,
+				A27B040E2EECFE80003C00D4 /* Script.js in Resources */,
+				A27B040F2EECFE80003C00D4 /* messages.json in Resources */,
+				A27B04102EECFE80003C00D4 /* icon-128.png in Resources */,
+				A27B04112EECFE80003C00D4 /* icon-64.png in Resources */,
+				A27B04122EECFE80003C00D4 /* icon-128.png in Resources */,
+				A27B04132EECFE80003C00D4 /* manifest.json in Resources */,
+				A27B04142EECFE80003C00D4 /* Info.plist in Resources */,
+				A27B04152EECFE80003C00D4 /* icon-512.png in Resources */,
+				A27B04162EECFE80003C00D4 /* content.js in Resources */,
+				A27B04172EECFE80003C00D4 /* background.js in Resources */,
+				A27B04182EECFE80003C00D4 /* background.js in Resources */,
+				A27B04192EECFE80003C00D4 /* popup.html in Resources */,
+				A27B041A2EECFE80003C00D4 /* copilot-instructions.md in Resources */,
+				A27B041B2EECFE80003C00D4 /* .gitignore in Resources */,
+				A27B041C2EECFE80003C00D4 /* popup.js in Resources */,
+				A27B041D2EECFE80003C00D4 /* Icon.png in Resources */,
+				A27B041E2EECFE80003C00D4 /* package.json in Resources */,
+				A27B041F2EECFE80003C00D4 /* popup.css in Resources */,
+				A27B04202EECFE80003C00D4 /* toolbar-icon.svg in Resources */,
+				A27B04212EECFE80003C00D4 /* popup.html in Resources */,
+				A27B04222EECFE80003C00D4 /* icon-16.png in Resources */,
+				A27B04232EECFE80003C00D4 /* manifest.json in Resources */,
+				A27B04242EECFE80003C00D4 /* popup.css in Resources */,
+				A27B04252EECFE80003C00D4 /* icon-96.png in Resources */,
+				A27B04262EECFE80003C00D4 /* icon-48.png in Resources */,
+				A27B04272EECFE80003C00D4 /* popup.js in Resources */,
+				A27B04282EECFE80003C00D4 /* icon-48.png in Resources */,
+				A27B04292EECFE80003C00D4 /* icon-256.png in Resources */,
+				A27B042A2EECFE80003C00D4 /* content.js in Resources */,
+				A27B042B2EECFE80003C00D4 /* Main.html in Resources */,
+				A27B042C2EECFE80003C00D4 /* Style.css in Resources */,
+				A27B042D2EECFE80003C00D4 /* Assets.xcassets in Resources */,
+				A27B042E2EECFE80003C00D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27B029A2EECFCB2003C00D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27B043B2EECFE80003C00D4 /* README.md in Resources */,
+				A27B043C2EECFE80003C00D4 /* Script.js in Resources */,
+				A27B043D2EECFE80003C00D4 /* messages.json in Resources */,
+				A27B043E2EECFE80003C00D4 /* icon-128.png in Resources */,
+				A27B043F2EECFE80003C00D4 /* icon-64.png in Resources */,
+				A27B04402EECFE80003C00D4 /* icon-128.png in Resources */,
+				A27B04412EECFE80003C00D4 /* manifest.json in Resources */,
+				A27B04422EECFE80003C00D4 /* Info.plist in Resources */,
+				A27B04432EECFE80003C00D4 /* icon-512.png in Resources */,
+				A27B04442EECFE80003C00D4 /* content.js in Resources */,
+				A27B04452EECFE80003C00D4 /* background.js in Resources */,
+				A27B04462EECFE80003C00D4 /* background.js in Resources */,
+				A27B04472EECFE80003C00D4 /* popup.html in Resources */,
+				A27B04482EECFE80003C00D4 /* copilot-instructions.md in Resources */,
+				A27B04492EECFE80003C00D4 /* .gitignore in Resources */,
+				A27B044A2EECFE80003C00D4 /* popup.js in Resources */,
+				A27B044B2EECFE80003C00D4 /* Icon.png in Resources */,
+				A27B044C2EECFE80003C00D4 /* package.json in Resources */,
+				A27B044D2EECFE80003C00D4 /* popup.css in Resources */,
+				A27B044E2EECFE80003C00D4 /* toolbar-icon.svg in Resources */,
+				A27B044F2EECFE80003C00D4 /* popup.html in Resources */,
+				A27B04502EECFE80003C00D4 /* icon-16.png in Resources */,
+				A27B04512EECFE80003C00D4 /* manifest.json in Resources */,
+				A27B04522EECFE80003C00D4 /* popup.css in Resources */,
+				A27B04532EECFE80003C00D4 /* icon-96.png in Resources */,
+				A27B04542EECFE80003C00D4 /* icon-48.png in Resources */,
+				A27B04552EECFE80003C00D4 /* popup.js in Resources */,
+				A27B04562EECFE80003C00D4 /* icon-48.png in Resources */,
+				A27B04572EECFE80003C00D4 /* icon-256.png in Resources */,
+				A27B04582EECFE80003C00D4 /* content.js in Resources */,
+				A27B04592EECFE80003C00D4 /* Main.html in Resources */,
+				A27B045A2EECFE80003C00D4 /* Style.css in Resources */,
+				A27B045B2EECFE80003C00D4 /* Assets.xcassets in Resources */,
+				A27B045C2EECFE80003C00D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27B02A42EECFCB2003C00D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27B03EB2EECFE80003C00D4 /* README.md in Resources */,
+				A27B03EC2EECFE80003C00D4 /* Script.js in Resources */,
+				A27B03ED2EECFE80003C00D4 /* messages.json in Resources */,
+				A27B03EE2EECFE80003C00D4 /* icon-128.png in Resources */,
+				A27B03EF2EECFE80003C00D4 /* icon-64.png in Resources */,
+				A27B03F02EECFE80003C00D4 /* icon-128.png in Resources */,
+				A27B03F12EECFE80003C00D4 /* manifest.json in Resources */,
+				A27B03F22EECFE80003C00D4 /* Info.plist in Resources */,
+				A27B03F32EECFE80003C00D4 /* icon-512.png in Resources */,
+				A27B03F42EECFE80003C00D4 /* content.js in Resources */,
+				A27B03F52EECFE80003C00D4 /* background.js in Resources */,
+				A27B03F62EECFE80003C00D4 /* background.js in Resources */,
+				A27B03F72EECFE80003C00D4 /* popup.html in Resources */,
+				A27B03F82EECFE80003C00D4 /* copilot-instructions.md in Resources */,
+				A27B03F92EECFE80003C00D4 /* .gitignore in Resources */,
+				A27B03FA2EECFE80003C00D4 /* popup.js in Resources */,
+				A27B03FB2EECFE80003C00D4 /* Icon.png in Resources */,
+				A27B03FC2EECFE80003C00D4 /* package.json in Resources */,
+				A27B03FD2EECFE80003C00D4 /* popup.css in Resources */,
+				A27B03FE2EECFE80003C00D4 /* toolbar-icon.svg in Resources */,
+				A27B03FF2EECFE80003C00D4 /* popup.html in Resources */,
+				A27B04002EECFE80003C00D4 /* icon-16.png in Resources */,
+				A27B04012EECFE80003C00D4 /* manifest.json in Resources */,
+				A27B04022EECFE80003C00D4 /* popup.css in Resources */,
+				A27B04032EECFE80003C00D4 /* icon-96.png in Resources */,
+				A27B04042EECFE80003C00D4 /* icon-48.png in Resources */,
+				A27B04052EECFE80003C00D4 /* popup.js in Resources */,
+				A27B04062EECFE80003C00D4 /* icon-48.png in Resources */,
+				A27B04072EECFE80003C00D4 /* icon-256.png in Resources */,
+				A27B04082EECFE80003C00D4 /* content.js in Resources */,
+				A27B04092EECFE80003C00D4 /* Main.html in Resources */,
+				A27B040A2EECFE80003C00D4 /* Style.css in Resources */,
+				A27B040B2EECFE80003C00D4 /* Assets.xcassets in Resources */,
+				A27B040C2EECFE80003C00D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27B02B02EECFCB2003C00D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27B03BD2EECFE80003C00D4 /* README.md in Resources */,
+				A27B03BE2EECFE80003C00D4 /* Script.js in Resources */,
+				A27B03BF2EECFE80003C00D4 /* messages.json in Resources */,
+				A27B03C02EECFE80003C00D4 /* icon-128.png in Resources */,
+				A27B03C12EECFE80003C00D4 /* icon-64.png in Resources */,
+				A27B03C22EECFE80003C00D4 /* icon-128.png in Resources */,
+				A27B03C32EECFE80003C00D4 /* manifest.json in Resources */,
+				A27B03C42EECFE80003C00D4 /* Info.plist in Resources */,
+				A27B03C52EECFE80003C00D4 /* icon-512.png in Resources */,
+				A27B03C62EECFE80003C00D4 /* content.js in Resources */,
+				A27B03C72EECFE80003C00D4 /* background.js in Resources */,
+				A27B03C82EECFE80003C00D4 /* background.js in Resources */,
+				A27B03C92EECFE80003C00D4 /* popup.html in Resources */,
+				A27B03CA2EECFE80003C00D4 /* copilot-instructions.md in Resources */,
+				A27B03CB2EECFE80003C00D4 /* .gitignore in Resources */,
+				A27B03CC2EECFE80003C00D4 /* popup.js in Resources */,
+				A27B03CD2EECFE80003C00D4 /* Icon.png in Resources */,
+				A27B03CE2EECFE80003C00D4 /* package.json in Resources */,
+				A27B03CF2EECFE80003C00D4 /* popup.css in Resources */,
+				A27B03D02EECFE80003C00D4 /* toolbar-icon.svg in Resources */,
+				A27B03D12EECFE80003C00D4 /* popup.html in Resources */,
+				A27B03D22EECFE80003C00D4 /* icon-16.png in Resources */,
+				A27B03D32EECFE80003C00D4 /* manifest.json in Resources */,
+				A27B03D42EECFE80003C00D4 /* popup.css in Resources */,
+				A27B03D52EECFE80003C00D4 /* icon-96.png in Resources */,
+				A27B03D62EECFE80003C00D4 /* icon-48.png in Resources */,
+				A27B03D72EECFE80003C00D4 /* popup.js in Resources */,
+				A27B03D82EECFE80003C00D4 /* icon-48.png in Resources */,
+				A27B03D92EECFE80003C00D4 /* icon-256.png in Resources */,
+				A27B03DA2EECFE80003C00D4 /* content.js in Resources */,
+				A27B03DB2EECFE80003C00D4 /* Main.html in Resources */,
+				A27B03DC2EECFE80003C00D4 /* Style.css in Resources */,
+				A27B03DD2EECFE80003C00D4 /* Assets.xcassets in Resources */,
+				A27B03DE2EECFE80003C00D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27B027C2EECFCB1003C00D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27B042F2EECFE80003C00D4 /* ViewController.swift in Sources */,
+				A27B04302EECFE80003C00D4 /* SafariWebExtensionHandler.swift in Sources */,
+				A27B04312EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITests.swift in Sources */,
+				A27B04322EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITestsLaunchTests.swift in Sources */,
+				A27B04332EECFE80003C00D4 /* AppDelegate.swift in Sources */,
+				A27B04342EECFE80003C00D4 /* surecookie_0_2_0safari1_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27B02982EECFCB2003C00D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27B04352EECFE80003C00D4 /* ViewController.swift in Sources */,
+				A27B04362EECFE80003C00D4 /* SafariWebExtensionHandler.swift in Sources */,
+				A27B04372EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITests.swift in Sources */,
+				A27B04382EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITestsLaunchTests.swift in Sources */,
+				A27B04392EECFE80003C00D4 /* AppDelegate.swift in Sources */,
+				A27B043A2EECFE80003C00D4 /* surecookie_0_2_0safari1_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27B02A22EECFCB2003C00D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27B03E52EECFE80003C00D4 /* ViewController.swift in Sources */,
+				A27B03E62EECFE80003C00D4 /* SafariWebExtensionHandler.swift in Sources */,
+				A27B03E72EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITests.swift in Sources */,
+				A27B03E82EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITestsLaunchTests.swift in Sources */,
+				A27B03E92EECFE80003C00D4 /* AppDelegate.swift in Sources */,
+				A27B03EA2EECFE80003C00D4 /* surecookie_0_2_0safari1_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27B02AE2EECFCB2003C00D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27B03DF2EECFE80003C00D4 /* ViewController.swift in Sources */,
+				A27B03E02EECFE80003C00D4 /* SafariWebExtensionHandler.swift in Sources */,
+				A27B03E12EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITests.swift in Sources */,
+				A27B03E22EECFE80003C00D4 /* surecookie_0_2_0safari1_2UITestsLaunchTests.swift in Sources */,
+				A27B03E32EECFE80003C00D4 /* AppDelegate.swift in Sources */,
+				A27B03E42EECFE80003C00D4 /* surecookie_0_2_0safari1_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A27B029E2EECFCB2003C00D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27B027F2EECFCB1003C00D4 /* surecookie_0.2.0safari16 */;
+			targetProxy = A27B029D2EECFCB2003C00D4 /* PBXContainerItemProxy */;
+		};
+		A27B02A82EECFCB2003C00D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27B027F2EECFCB1003C00D4 /* surecookie_0.2.0safari16 */;
+			targetProxy = A27B02A72EECFCB2003C00D4 /* PBXContainerItemProxy */;
+		};
+		A27B02B52EECFCB2003C00D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27B02B12EECFCB2003C00D4 /* surecookie_0.2.0safari16 Extension */;
+			targetProxy = A27B02B42EECFCB2003C00D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A27B038D2EECFE80003C00D4 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27B038C2EECFE80003C00D4 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		A27B03942EECFE80003C00D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27B03932EECFE80003C00D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27B02CE2EECFCB2003C00D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "surecookie_0.2.0safari16 Extension/surecookie_0_2_0safari16_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "surecookie_0.2.0safari16 Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "surecookie_0.2.0safari16 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "a100145499.surecookie-0-2-0safari16.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A27B02CF2EECFCB2003C00D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "surecookie_0.2.0safari16 Extension/surecookie_0_2_0safari16_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "surecookie_0.2.0safari16 Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "surecookie_0.2.0safari16 Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "a100145499.surecookie-0-2-0safari16.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A27B02D02EECFCB2003C00D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A27B02D12EECFCB2003C00D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A27B02D42EECFCB2003C00D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = surecookie_0.2.0safari16/surecookie_0.2.0safari16.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = surecookie_0.2.0safari16;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "a100145499.surecookie-0-2-0safari16";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A27B02D52EECFCB2003C00D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = surecookie_0.2.0safari16/surecookie_0.2.0safari16.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = surecookie_0.2.0safari16;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "a100145499.surecookie-0-2-0safari16";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A27B02D72EECFCB2003C00D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a100145499.surecookie-0-2-0safari16Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/surecookie_0.2.0safari16.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/surecookie_0.2.0safari16";
+			};
+			name = Debug;
+		};
+		A27B02D82EECFCB2003C00D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a100145499.surecookie-0-2-0safari16Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/surecookie_0.2.0safari16.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/surecookie_0.2.0safari16";
+			};
+			name = Release;
+		};
+		A27B02DA2EECFCB2003C00D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a100145499.surecookie-0-2-0safari16UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = surecookie_0.2.0safari16;
+			};
+			name = Debug;
+		};
+		A27B02DB2EECFCB2003C00D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a100145499.surecookie-0-2-0safari16UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = surecookie_0.2.0safari16;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27B027B2EECFCB1003C00D4 /* Build configuration list for PBXProject "surecookie_0.2.0safari16" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27B02D02EECFCB2003C00D4 /* Debug */,
+				A27B02D12EECFCB2003C00D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27B02CD2EECFCB2003C00D4 /* Build configuration list for PBXNativeTarget "surecookie_0.2.0safari16 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27B02CE2EECFCB2003C00D4 /* Debug */,
+				A27B02CF2EECFCB2003C00D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27B02D32EECFCB2003C00D4 /* Build configuration list for PBXNativeTarget "surecookie_0.2.0safari16" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27B02D42EECFCB2003C00D4 /* Debug */,
+				A27B02D52EECFCB2003C00D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27B02D62EECFCB2003C00D4 /* Build configuration list for PBXNativeTarget "surecookie_0.2.0safari16Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27B02D72EECFCB2003C00D4 /* Debug */,
+				A27B02D82EECFCB2003C00D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27B02D92EECFCB2003C00D4 /* Build configuration list for PBXNativeTarget "surecookie_0.2.0safari16UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27B02DA2EECFCB2003C00D4 /* Debug */,
+				A27B02DB2EECFCB2003C00D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A27B02782EECFCB1003C00D4 /* Project object */;
+}

@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "surecookie_0.2.0safari16 Extension",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "This is surecookie_0.2.0safari16 Extension. You should tell us what your extension does here.",
+        "description": "Description of what the extension does."
+    }
+}
